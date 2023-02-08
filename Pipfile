@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+mathparse = ">=0.1,<0.2"
+python-dateutil = "<2.9,>=2.8"
+sqlalchemy = "<1.4,>=1.3"
+pytz = "*"
+coveralls = "*"
+flake8 = "*"
+nltk = "<4.0,>=3.2"
+nose = "*"
+pint = ">=0.8.1"
+pymongo = "<4.0,>=3.3"
+twine = "*"
+twython = "*"
+sphinx = ">=3.0,<3.1"
+sphinx-rtd-theme = "*"
+pyyaml = "<5.4,>=5.3"
+chatterbot-corpus = {ref = "master", git = "git://github.com/gunthercox/chatterbot-corpus"}
+en-core-web-sm = {file = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.1.0/en_core_web_sm-2.1.0.tar.gz"}
+de-core-news-sm = {file = "https://github.com/explosion/spacy-models/releases/download/de_core_news_sm-2.1.0/de_core_news_sm-2.1.0.tar.gz"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
